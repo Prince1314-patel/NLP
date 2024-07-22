@@ -1,0 +1,49 @@
+WHAT IS NLP?
+    Certainly! **Natural Language Processing (NLP)** is an interdisciplinary field that bridges computer science, artificial intelligence, and linguistics. Its primary goal is to enable computers to understand, interpret, and manipulate human language. Here are the key points:
+
+    1. **Data Processing**: NLP focuses on processing data encoded in natural language. This includes text corpora collected from various sources.
+
+    2. **Approaches**: NLP employs different approaches:
+    - **Rule-based**: Using predefined rules to analyze and generate language.
+    - **Statistical**: Leveraging statistical models to learn patterns from data.
+    - **Neural-based**: Utilizing deep learning techniques for complex language tasks.
+
+    3. **Major Tasks**:
+    - **Speech Recognition**: Converting spoken language into text.
+    - **Text Classification**: Assigning labels or categories to text (e.g., spam detection).
+    - **Natural Language Understanding (NLU)**: Extracting meaning from text (e.g., sentiment analysis, named entity recognition).
+    - **Natural Language Generation (NLG)**: Creating human-like text (e.g., chatbots, summarization).
+
+    4. **History**:
+    - In the 1940s, Alan Turing proposed the Turing test, which involved automated interpretation of natural language.
+    - Symbolic NLP (1950s – early 1990s) used rule-based systems.
+    - Notable systems include SHRDLU (restricted vocabularies) and ELIZA (psychotherapist simulation).
+    - Ross Quillian demonstrated language understanding with a small vocabulary.
+    - The field evolved over time, incorporating statistical and neural approaches¹.
+
+APPROACHES USED TO IMPLEMENT NLP
+    Certainly! There are several approaches used to implement Natural Language Processing (NLP) tasks:
+
+    1. **Heuristics-Based NLP**:
+    - This initial approach relies on predefined rules based on domain knowledge and expertise.
+    - Example: Regular expressions (regex) for pattern matching².
+
+    2. **Statistical Machine Learning-Based NLP**:
+    - It leverages statistical rules and machine learning algorithms.
+    - These models learn from data and adapt to language patterns.
+    - Widely used for tasks like text classification and sentiment analysis.
+
+    3. **Neural Network-Based NLP (Deep Learning)**:
+    - The latest approach involves neural networks, particularly deep learning.
+    - Neural networks learn hierarchical representations from raw text data.
+    - Used for tasks like machine translation, named entity recognition, and text generation³.
+
+CHALLENGES IN NLP
+    Ambiguity(same sentence having different meaning)
+        I saw the boy on the beach with my binoculars.
+        I have never tasted a cake quite like that one before!
+    Contextual Words(same word used in a sentence can have diffrent meaning)
+        I ran to the store because we ran out of milk.
+    Colloquialisms and slang(sentence that have diffrent meaning from their original meaning)
+        Piece of cake, pulling your leg
+    Irony,sarcasm and tonal diffrence(sentence may have diffrent meaning according to situation)
