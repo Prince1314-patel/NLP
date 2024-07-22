@@ -1,0 +1,62 @@
+## TF-IDF in NLP Word Preprocessing
+
+**TF-IDF** stands for **Term Frequency-Inverse Document Frequency**. It's a numerical statistic used to reflect how 
+important a word is to a document in a collection or corpus. It's a crucial technique in NLP for text representation 
+and feature extraction.
+
+### How TF-IDF is Calculated
+
+TF-IDF is calculated in two main steps:
+
+    1. **Term Frequency (TF):** This measures how frequently a term appears in a document.
+    * **Formula:** TF(t,d) = (Number of times term t appears in document d) / (Total number of terms in document d)
+
+    2. **Inverse Document Frequency (IDF):** This measures how important a term is across the entire corpus. It is 
+    inversely proportional to the document frequency of the term.
+    * **Formula:** IDF(t) = log(Total number of documents / Number of documents containing term t)
+
+    3. **TF-IDF:** The final TF-IDF weight is the product of TF and IDF.
+    * **Formula:** TF-IDF(t,d) = TF(t,d) * IDF(t)
+
+### TF-IDF in Word Preprocessing
+
+While TF-IDF itself is not a preprocessing technique, it's often used after preprocessing steps to represent text 
+data as numerical features. Here's how it fits into the overall NLP pipeline:
+
+1. **Text Cleaning:** This involves removing stop words, punctuation, and other irrelevant characters.
+2. **Tokenization:** Breaking text into individual words or tokens.
+3. **Stemming or Lemmatization:** Reducing words to their root form.
+4. **TF-IDF Calculation:** Assigning a weight to each word based on its frequency within the document and across the 
+corpus.
+
+### Example
+
+Consider a corpus of two documents:
+
+* Document 1: "The quick brown fox jumps over the lazy dog"
+* Document 2: "The cat sat on the mat"
+
+After preprocessing, we might have the following vocabulary:
+* ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'lazy', 'dog', 'cat', 'sat', 'on', 'mat']
+
+Calculating TF-IDF for the term "the":
+* TF("the", Document 1) = 2/9
+* TF("the", Document 2) = 1/4
+* IDF("the") = log(2/2) = 0
+* TF-IDF("the", Document 1) = 0
+* TF-IDF("the", Document 2) = 0
+
+As you can see, common words like "the" have a low TF-IDF value because they appear frequently in many documents.
+
+### Using TF-IDF
+
+TF-IDF is widely used in various NLP tasks, including:
+* **Text Classification:** Assigning categories to documents based on their content.
+* **Information Retrieval:** Ranking documents based on their relevance to a query.
+* **Text Summarization:** Identifying the most important sentences in a document.
+* **Document Clustering:** Grouping similar documents together.
+
+By understanding TF-IDF, you can effectively represent text data as numerical features, which is essential for many 
+machine learning algorithms used in NLP.
+
+**Would you like to see a Python implementation of TF-IDF using scikit-learn?**

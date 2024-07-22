@@ -1,0 +1,101 @@
+id,qid1,qid2,question1,question2,is_duplicate
+1,1,2,How do I bake a cake?,What is the process to bake a cake?,1
+2,3,4,What is the capital of France?,Which city is the capital of France?,1
+3,5,6,How can I lose weight quickly?,What are some fast ways to lose weight?,1
+4,7,8,What is the best programming language?,Which programming language is the best?,1
+5,9,10,How do I fix a flat tire?,What steps should I follow to repair a flat tire?,1
+6,11,12,What is the meaning of life?,What is the purpose of life?,0
+7,13,14,How do I write a novel?,What are the steps to writing a book?,1
+8,15,16,What is the boiling point of water?,At what temperature does water boil?,1
+9,17,18,How can I improve my credit score?,What are some ways to increase my credit score?,1
+10,19,20,What is the distance between the Earth and the Moon?,How far is the Moon from the Earth?,1
+11,21,22,Who won the World Series in 2020?,Which team was the champion of the 2020 World Series?,1
+12,23,24,What is photosynthesis?,How do plants make food?,1
+13,25,26,What is 2 + 2?,What is the sum of two and two?,1
+14,27,28,Who is the President of the USA?,Who is the current US President?,1
+15,29,30,How to change a car tire?,What is the procedure for changing a car tire?,1
+16,31,32,What is Python programming?,Can you explain what Python programming is?,1
+17,33,34,What are healthy snacks?,What are some examples of healthy snacks?,1
+18,35,36,What is the tallest building in the world?,Which building is the tallest in the world?,1
+19,37,38,How to cook pasta?,What is the process of cooking pasta?,1
+20,39,40,What is global warming?,What is climate change?,1
+21,41,42,How do you make a website?,What are the steps to creating a website?,1
+22,43,44,What is artificial intelligence?,Can you explain what AI is?,1
+23,45,46,What is quantum physics?,Can you explain quantum mechanics?,1
+24,47,48,What is the speed of light?,How fast does light travel?,1
+25,49,50,How to play guitar?,What is the best way to learn guitar?,1
+26,51,52,What is your favorite movie?,What is the best film you have seen?,1
+27,53,54,How to meditate?,What are the steps to start meditating?,1
+28,55,56,What is blockchain technology?,Can you explain what blockchain is?,1
+29,57,58,How to swim?,What is the process of learning to swim?,1
+30,59,60,What is your favorite book?,What book do you love the most?,1
+31,61,62,How to learn Spanish?,What are the best ways to learn Spanish?,1
+32,63,64,What is the time?,What is the current time?,1
+33,65,66,What is machine learning?,Can you explain machine learning?,1
+34,67,68,What are the benefits of exercise?,How does working out benefit health?,1
+35,69,70,How to make a sandwich?,What is the recipe for making a sandwich?,1
+36,71,72,What is your name?,Can you tell me your name?,1
+37,73,74,What is gravity?,Can you explain the concept of gravity?,1
+38,75,76,What is your job?,What do you do for a living?,1
+39,77,78,How to write a resume?,What are the steps to writing a CV?,1
+40,79,80,What is the weather like?,Can you describe the current weather?,1
+41,81,82,What is the meaning of life?,What is the purpose of life?,0
+42,83,84,How to cook pasta?,How to fix a flat tire?,0
+43,85,86,What is the capital of France?,How to learn Spanish?,0
+44,87,88,What is your favorite movie?,What is the tallest building in the world?,0
+45,89,90,How do I write a novel?,Who won the World Series in 2020?,0
+46,91,92,How to meditate?,What is the speed of light?,0
+47,93,94,What is blockchain technology?,How to swim?,0
+48,95,96,What is the distance between the Earth and the Moon?,What is Python programming?,0
+49,97,98,How to make a sandwich?,How to cook pasta?,0
+50,99,100,What is artificial intelligence?,What is the time?,0
+51,101,102,What is the boiling point of water?,How do you make a website?,0
+52,103,104,What is gravity?,What are the benefits of exercise?,0
+53,105,106,What is machine learning?,What is quantum physics?,0
+54,107,108,What are healthy snacks?,How to play guitar?,0
+55,109,110,What is the process of baking a cake?,What is the recipe for making a sandwich?,0
+56,111,112,How to improve my credit score?,How to fix a flat tire?,0
+57,113,114,What is your favorite book?,What is your job?,0
+58,115,116,What is photosynthesis?,What is climate change?,0
+59,117,118,What is your name?,Who is the current US President?,0
+60,119,120,How to learn Spanish?,What is the capital of France?,0
+61,121,122,How to write a resume?,What is the best programming language?,0
+62,123,124,What is the meaning of life?,What is artificial intelligence?,0
+63,125,126,What is the purpose of life?,What is the weather like?,0
+64,127,128,How to meditate?,What are healthy snacks?,0
+65,129,130,What is quantum physics?,How to play guitar?,0
+66,131,132,What is your favorite movie?,How to swim?,0
+67,133,134,What is blockchain technology?,What is photosynthesis?,0
+68,135,136,What is the boiling point of water?,What is the speed of light?,0
+69,137,138,What is your name?,What is your job?,0
+70,139,140,What is the weather like?,What is the meaning of life?,0
+71,141,142,What is artificial intelligence?,How to fix a flat tire?,0
+72,143,144,What is machine learning?,What is the process of learning to swim?,0
+73,145,146,What is gravity?,What is blockchain technology?,0
+74,147,148,What is your favorite book?,What is the time?,0
+75,149,150,How to play guitar?,How to cook pasta?,0
+76,151,152,What is the distance between the Earth and the Moon?,What is the weather like?,0
+77,153,154,How to meditate?,What is machine learning?,0
+78,155,156,What is the capital of France?,How to learn Spanish?,0
+79,157,158,How to make a sandwich?,What are the benefits of exercise?,0
+80,159,160,What is your favorite book?,What is gravity?,0
+81,161,162,What is the meaning of life?,How to write a resume?,0
+82,163,164,What is photosynthesis?,What is the distance between the Earth and the Moon?,0
+83,165,166,What is artificial intelligence?,How to bake a cake?,0
+84,167,168,What is the process of learning to swim?,How to make a sandwich?,0
+85,169,170,How to improve my credit score?,How to play guitar?,0
+86,171,172,What is blockchain technology?,What is photosynthesis?,0
+87,173,174,What is the tallest building in the world?,How to cook pasta?,0
+88,175,176,What is the process of baking a cake?,What is the speed of light?,0
+89,177,178,What is your favorite movie?,What is the time?,0
+90,179,180,What is your name?,How to bake a cake?,0
+91,181,182,How to learn Spanish?,What is the tallest building in the world?,0
+92,183,184,How to meditate?,What is the purpose of life?,0
+93,185,186,What is the speed of light?,What is blockchain technology?,0
+94,187,188,How to make a sandwich?,What is the capital of France?,0
+95,189,190,What is photosynthesis?,What is gravity?,0
+96,191,192,What is your favorite movie?,How to meditate?,0
+97,193,194,How to fix a flat tire?,What is the boiling point of water?,0
+98,195,196,How to learn Spanish?,What is machine learning?,0
+99,197,198,How to improve my credit score?,What is the best programming language?,0
+100,199,200,How to cook pasta?,What is the meaning of life?,0

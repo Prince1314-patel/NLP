@@ -1,0 +1,30 @@
+Word2Vec:
+
+    1. **What is Word2Vec?**
+        - **Word2Vec** is an algorithm that learns **word embeddings**—vector representations of words—in a way that captures semantic meaning.
+        - It's based on the idea that words with similar meanings appear in similar contexts.
+        - Word2Vec represents words as dense vectors in a high-dimensional space.
+
+    2. **How Does Word2Vec Work?**
+        - Two main architectures:
+            - **Continuous Bag of Words (CBOW)**: Predicts a target word based on its context (surrounding words).
+            - **Skip-gram**: Predicts context words given a target word.
+        - Training involves adjusting word vectors to minimize the difference between predicted and actual context words.
+        - The resulting vectors capture semantic relationships.
+
+    3. **Advantages of Word2Vec**:
+        - **Semantic Meaning**: Word2Vec captures word meanings effectively.
+        - **Efficient**: Works well with large datasets.
+        - **Versatile**: Useful for various NLP tasks (e.g., similarity, associations, clustering).
+
+    4. **Disadvantages of Word2Vec**:
+        - **Rare Words**: May struggle with rare or infrequent words.
+        - **Word Order**: Ignores word order (context window is symmetric).
+
+    5. **Types of Word2Vec**:
+        - **CBOW**: Predicts target word from context.
+        - **Skip-gram**: Predicts context words from target word.
+
+WHEN TO USE CBOW AND SKIP-GRAM
+    Research have proven that if we are working with SMALLER DATA then it is best to use CBOW,if we are working with LARGER DATA then it is 
+    best to use SKIP-GRAM
